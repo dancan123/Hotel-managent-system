@@ -1,6 +1,6 @@
 // Hotel Management System - Frontend JavaScript
 
-const API_BASE = 'https://your-hotel-management-backend.onrender.com/api/v1';
+const API_BASE = 'https://hotel-managent-system-1.onrender.com/api/v1';
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('Hotel Management System frontend loaded.');
