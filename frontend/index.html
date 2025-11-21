@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#dashboard">Dashboard</a></li>
+                <li><a href="#rooms">Rooms</a></li>
+                <li><a href="#customers">Customers</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#employees">Employees</a></li>
+                <li><a href="#billing">Billing</a></li>
+                <li><a href="#reports">Reports</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="dashboard">
+            <h2>Dashboard</h2>
+            <p>Overview and statistics placeholder.</p>
+            <!-- Placeholder for charts or stats -->
+        </section>
+        <section id="rooms">
+            <h2>Rooms</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Room Number</th>
+                        <th>Type</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>101</td>
+                        <td>Single</td>
+                        <td>Available</td>
+                    </tr>
+                    <!-- More placeholder rows -->
+                </tbody>
+            </table>
+            <form>
+                <label>Room Number: <input type="text" placeholder="Enter room number"></label>
+                <label>Type: <input type="text" placeholder="Enter room type"></label>
+                <label>Status: <input type="text" placeholder="Enter status"></label>
+                <button type="submit">Add Room</button>
+            </form>
+        </section>
+        <section id="customers">
+            <h2>Customers</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>John Doe</td>
+                        <td>john@example.com</td>
+                        <td>123-456-7890</td>
+                    </tr>
+                    <!-- More placeholder rows -->
+                </tbody>
+            </table>
+            <form>
+                <label>Name: <input type="text" placeholder="Enter name"></label>
+                <label>Email: <input type="email" placeholder="Enter email"></label>
+                <label>Phone: <input type="tel" placeholder="Enter phone"></label>
+                <button type="submit">Add Customer</button>
+            </form>
+        </section>
+        <section id="reservations">
+            <h2>Reservations</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Reservation ID</th>
+                        <th>Customer</th>
+                        <th>Room</th>
+                        <th>Check-in</th>
+                        <th>Check-out</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>John Doe</td>
+                        <td>101</td>
+                        <td>2023-10-01</td>
+                        <td>2023-10-05</td>
+                    </tr>
+                    <!-- More placeholder rows -->
+                </tbody>
+            </table>
+            <form>
+                <label>Customer: <input type="text" placeholder="Enter customer name"></label>
+                <label>Room: <input type="text" placeholder="Enter room number"></label>
+                <label>Check-in: <input type="date"></label>
+                <label>Check-out: <input type="date"></label>
+                <button type="submit">Add Reservation</button>
+            </form>
+        </section>
+        <section id="employees">
+            <h2>Employees</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Department</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Jane Smith</td>
+                        <td>Manager</td>
+                        <td>Operations</td>
+                    </tr>
+                    <!-- More placeholder rows -->
+                </tbody>
+            </table>
+            <form>
+                <label>Name: <input type="text" placeholder="Enter name"></label>
+                <label>Position: <input type="text" placeholder="Enter position"></label>
+                <label>Department: <input type="text" placeholder="Enter department"></label>
+                <button type="submit">Add Employee</button>
+            </form>
+        </section>
+        <section id="billing">
+            <h2>Billing</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Invoice ID</th>
+                        <th>Customer</th>
+                        <th>Amount</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>INV001</td>
+                        <td>John Doe</td>
+                        <td>$500</td>
+                        <td>Paid</td>
+                    </tr>
+                    <!-- More placeholder rows -->
+                </tbody>
+            </table>
+            <form>
+                <label>Customer: <input type="text" placeholder="Enter customer name"></label>
+                <label>Amount: <input type="number" placeholder="Enter amount"></label>
+                <label>Status: <input type="text" placeholder="Enter status"></label>
+                <button type="submit">Add Invoice</button>
+            </form>
+        </section>
+        <section id="reports">
+            <h2>Reports</h2>
+            <p>Placeholder for reports and analytics.</p>
+            <!-- Placeholder for report content -->
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
